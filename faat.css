@@ -1,0 +1,77 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background-image: url('./parfait1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    border-radius: 40%;
+    border: 5px solid white;
+    border: 5px solid red;
+    outline: 5px solid red;
+    
+}
+
+ div img { 
+    width: 150px;
+    height: 150px;
+    margin-top: -4px;
+    margin-bottom: -40px;
+    
+ } 
+
+.card {
+    background: rgb(159, 145, 145); 
+    background: rgba(248, 244, 244, 0.5);
+    height: 100%;
+    width: 100%;
+    border-radius: 40%;
+    
+    
+}
+
+.parfait {
+    font-size: 46px;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 2px 2px white;
+    color: rgb(140, 21, 21);
+    margin-bottom: -5px;
+} 
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px blue;
+}
+
+p {
+    font-family: "Sofia", sans-serif; 
+    font-size: 20px; 
+    font-weight: bolder;
+    margin-top: -8px;
+    text-shadow: 1px 1px black;
+}
+
+h3 {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px blue;
+    font-size: 24px;
+}
+
+i {
+    background-color: green;
+    color: white;
+    font-size: 29px;
+    border-radius: 15px;
+}
